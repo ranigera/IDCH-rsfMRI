@@ -1,0 +1,8 @@
+/ContrastName1	Pos corr
+    /ContrastName2	Neg corr
+    /NumWaves	1
+    /NumContrasts	2
+
+    /Matrix
+    1.0
+-1.0

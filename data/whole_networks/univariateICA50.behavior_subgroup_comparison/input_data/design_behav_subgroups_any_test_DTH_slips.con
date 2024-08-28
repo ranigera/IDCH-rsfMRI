@@ -1,0 +1,8 @@
+/ContrastName1	Habit > Goal-directed
+    /ContrastName2	Goal directed > Habit
+    /NumWaves	2
+    /NumContrasts	2
+
+    /Matrix
+    1.0	-1.0
+-1.0	1.0

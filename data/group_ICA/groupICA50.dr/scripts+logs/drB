@@ -1,0 +1,4 @@
+#!/bin/sh
+$FSLDIR/bin/fslmerge -t /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50.dr/maskALL `$FSLDIR/bin/imglob /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50.dr/mask_*`
+$FSLDIR/bin/fslmaths /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50.dr/maskALL -Tmin /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50.dr/mask
+$FSLDIR/bin/imrm /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50.dr/mask_*
