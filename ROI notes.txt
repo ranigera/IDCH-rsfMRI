@@ -1,0 +1,29 @@
+
+Main files to work on are those that end like this:
+_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz
+
+
+Regions to test connectivity with Stephanie's masks (following our meeting with Reza):
+1. Within habit circuit - SMA to posterior lateral putamen.
+2. Within habit circuit - premotor cortex to posterior lateral putamen.
+3. Goal-directed - anterior caudate to vmPFC.
+
+Arbitration circuits:
+4. vlpfc to posterior (lateral) putamen.
+5. vlpfc to anterior putamen.
+6. vlpfc to anterior caudate.
+7. Frontal polar (only right) to anterior caudate (only right).
+8. Frontal polar (only right) to posterior (lateral) putamen (only right).
+
+Let's also check:
+right posterior putamen to left posterior putamen
+right anterior caudate to left left anterior caudate
+
+
+------------------------
+
+Probabely be good to get anohter vmPFC mask.
+Weilun mentioned this in a lab meeting so it might be relevant:
+See vmPFC chosen mask (from Barca et al., 2013: meta study of 200 studies on valuation tasks), or maybe I can use what I had used in the past.
+
+- Understand from Stephanie w.r.t masks and pre-processing.
