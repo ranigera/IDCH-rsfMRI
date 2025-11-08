@@ -1,0 +1,645 @@
+
+Melodic Version 3.15
+
+melodic -i /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/input_files.txt -o /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50 --tr=0.70 --nobet -a concat --bgimage=/export/home/ranigera/fsl/data/standard/MNI152_T1_2mm_brain.nii.gz -m /export/home/ranigera/fsl/data/standard/MNI152_T1_2mm_brain_mask.nii.gz --report --Oall -d 50 
+---------------------------------------------
+
+Melodic results will be in /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50
+
+Mask provided : /export/home/ranigera/fsl/data/standard/MNI152_T1_2mm_brain_mask.nii.gz
+
+Randomising input file order
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-120_IDCH_id_rs_normed_concat  ...  done
+  Estimating data smoothness ...  done 
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-122_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-101_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-113_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-106_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-111_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-103_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-105_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-109_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-107_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-119_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-117_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-112_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-102_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-110_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-108_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-121_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-114_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-118_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-115_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-104_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+
+Excluding voxels with constant value ... done
+  Normalising by voxel-wise variance ... done
+
+  Data size : 2399 x 225660
+
+Starting PCA  ... done
+Start whitening using  50 dimensions ... 
+  retaining 42.2646 percent of the variability 
+ ... done
+
+Starting ICA estimation using concat
+
+  Step no. 1 change : 0.990231
+  Step no. 2 change : 0.107973
+  Step no. 3 change : 0.0382297
+  Step no. 4 change : 0.0347908
+  Step no. 5 change : 0.0254159
+  Step no. 6 change : 0.0280418
+  Step no. 7 change : 0.0216074
+  Step no. 8 change : 0.0161025
+  Step no. 9 change : 0.0136277
+  Step no. 10 change : 0.012933
+  Step no. 11 change : 0.0130026
+  Step no. 12 change : 0.0108402
+  Step no. 13 change : 0.00759506
+  Step no. 14 change : 0.00648544
+  Step no. 15 change : 0.00525352
+  Step no. 16 change : 0.0042594
+  Step no. 17 change : 0.00351634
+  Step no. 18 change : 0.00293869
+  Step no. 19 change : 0.00252999
+  Step no. 20 change : 0.00216117
+  Step no. 21 change : 0.0018361
+  Step no. 22 change : 0.00155591
+  Step no. 23 change : 0.0013193
+  Step no. 24 change : 0.00112316
+  Step no. 25 change : 0.000963107
+  Step no. 26 change : 0.000834028
+  Step no. 27 change : 0.000730798
+  Step no. 28 change : 0.000648782
+  Step no. 29 change : 0.00058406
+  Step no. 30 change : 0.000533435
+  Step no. 31 change : 0.000494318
+  Step no. 32 change : 0.000464566
+  Step no. 33 change : 0.000442314
+  Step no. 34 change : 0.000425822
+  Step no. 35 change : 0.00047297
+  Step no. 36 change : 0.000544317
+  Step no. 37 change : 0.000630774
+  Step no. 38 change : 0.000727355
+  Step no. 39 change : 0.000824935
+  Step no. 40 change : 0.000910594
+  Step no. 41 change : 0.000969792
+  Step no. 42 change : 0.000990224
+  Step no. 43 change : 0.000965951
+  Step no. 44 change : 0.000899643
+  Step no. 45 change : 0.000801582
+  Step no. 46 change : 0.000686031
+  Step no. 47 change : 0.000566984
+  Step no. 48 change : 0.000455186
+  Step no. 49 change : 0.000357089
+  Step no. 50 change : 0.000275285
+  Step no. 51 change : 0.000209638
+  Step no. 52 change : 0.000158449
+  Step no. 53 change : 0.000119373
+  Step no. 54 change : 0.000102679
+  Step no. 55 change : 9.43471e-05
+  Step no. 56 change : 8.68859e-05
+  Step no. 57 change : 8.02097e-05
+  Step no. 58 change : 7.42322e-05
+  Step no. 59 change : 6.88731e-05
+  Step no. 60 change : 6.40598e-05
+  Step no. 61 change : 6.12135e-05
+  Step no. 62 change : 6.01516e-05
+  Step no. 63 change : 5.90477e-05
+  Step no. 64 change : 5.78959e-05
+  Step no. 65 change : 5.66917e-05
+  Step no. 66 change : 5.54323e-05
+  Step no. 67 change : 5.41161e-05
+  Step no. 68 change : 5.27436e-05
+  Step no. 69 change : 5.13166e-05
+  Step no. 70 change : 4.98382e-05
+  Convergence after 70 steps 
+
+Sorting IC maps
+
+Writing results to : 
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_oIC
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_IC
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/Noise__inv
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_Tmodes
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_mix
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_FTmix
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_ICstats
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_unmix
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/mask
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_white
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_dewhite
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_FTdewhite
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_pcaE
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_pcaD
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_pca
+...done
+Creating report index page ...done
+
+
+Running Mixture Modelling on Z-transformed IC maps ...
+  IC map 1 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_1
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_1
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat1
+   creating report page ...    done
+  IC map 2 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_2
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_2
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat2
+   creating report page ...    done
+  IC map 3 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_3
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_3
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat3
+   creating report page ...    done
+  IC map 4 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_4
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_4
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat4
+   creating report page ...    done
+  IC map 5 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_5
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_5
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat5
+   creating report page ...    done
+  IC map 6 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_6
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_6
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat6
+   creating report page ...    done
+  IC map 7 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_7
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_7
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat7
+   creating report page ...    done
+  IC map 8 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_8
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_8
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat8
+   creating report page ...    done
+  IC map 9 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_9
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_9
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat9
+   creating report page ...    done
+  IC map 10 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_10
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_10
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat10
+   creating report page ...    done
+  IC map 11 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_11
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_11
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat11
+   creating report page ...    done
+  IC map 12 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_12
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_12
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat12
+   creating report page ...    done
+  IC map 13 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_13
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_13
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat13
+   creating report page ...    done
+  IC map 14 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_14
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_14
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat14
+   creating report page ...    done
+  IC map 15 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_15
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_15
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat15
+   creating report page ...    done
+  IC map 16 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_16
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_16
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat16
+   creating report page ...    done
+  IC map 17 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_17
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_17
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat17
+   creating report page ...    done
+  IC map 18 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_18
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_18
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat18
+   creating report page ...    done
+  IC map 19 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_19
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_19
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat19
+   creating report page ...    done
+  IC map 20 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_20
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_20
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat20
+   creating report page ...    done
+  IC map 21 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_21
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_21
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat21
+   creating report page ...    done
+  IC map 22 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_22
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_22
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat22
+   creating report page ...    done
+  IC map 23 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_23
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_23
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat23
+   creating report page ...    done
+  IC map 24 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_24
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_24
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat24
+   creating report page ...    done
+  IC map 25 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_25
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_25
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat25
+   creating report page ...    done
+  IC map 26 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_26
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_26
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat26
+   creating report page ...    done
+  IC map 27 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_27
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_27
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat27
+   creating report page ...    done
+  IC map 28 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_28
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_28
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat28
+   creating report page ...    done
+  IC map 29 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_29
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_29
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat29
+   creating report page ...    done
+  IC map 30 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_30
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_30
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat30
+   creating report page ...    done
+  IC map 31 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_31
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_31
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat31
+   creating report page ...    done
+  IC map 32 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_32
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_32
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat32
+   creating report page ...    done
+  IC map 33 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_33
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_33
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat33
+   creating report page ...    done
+  IC map 34 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_34
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_34
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat34
+   creating report page ...    done
+  IC map 35 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_35
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_35
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat35
+   creating report page ...    done
+  IC map 36 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_36
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_36
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat36
+   creating report page ...    done
+  IC map 37 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_37
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_37
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat37
+   creating report page ...    done
+  IC map 38 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_38
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_38
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat38
+   creating report page ...    done
+  IC map 39 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_39
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_39
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat39
+   creating report page ...    done
+  IC map 40 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_40
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_40
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat40
+   creating report page ...    done
+  IC map 41 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_41
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_41
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat41
+   creating report page ...    done
+  IC map 42 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_42
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_42
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat42
+   creating report page ...    done
+  IC map 43 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_43
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_43
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat43
+   creating report page ...    done
+  IC map 44 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_44
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_44
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat44
+   creating report page ...    done
+  IC map 45 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_45
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_45
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat45
+   creating report page ...    done
+  IC map 46 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_46
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_46
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat46
+   creating report page ...    done
+  IC map 47 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_47
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_47
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat47
+   creating report page ...    done
+  IC map 48 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_48
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_48
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat48
+   creating report page ...    done
+  IC map 49 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_49
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_49
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat49
+   creating report page ...    done
+  IC map 50 ... 
+   calculating mixture-model fit 
+   saving probability map:    /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/probmap_50
+   saving mixture model fit:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/MMstats_50
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/stats/thresh_zstat50
+   creating report page ...    done
+
+Writing results to : 
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_IC
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/Noise__inv
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_Tmodes
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_mix
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_FTmix
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_ICstats
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_unmix
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/mask
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_white
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_dewhite
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_FTdewhite
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_pcaE
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_pcaD
+  /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/melodic_pca
+...done
+
+
+ To view the output report point your web browser at /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50/report/00index.html
+
+finished!
+

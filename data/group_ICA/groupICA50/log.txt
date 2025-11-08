@@ -9,143 +9,245 @@ Melodic results will be in /export/home/ranigera/IDCH-rsfMRI/data/group_ICA/grou
 Mask provided : /export/home/ranigera/fsl/data/standard/MNI152_T1_2mm_brain_mask.nii.gz
 
 Randomising input file order
-Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-120_IDCH_id_rs_normed_concat  ...  done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-111_IDCH_id_rs_normed_concat  ...  done
   Estimating data smoothness ...  done 
   Removing mean image ... done
-Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-122_IDCH_id_rs_normed_concat  ...  done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-127_IDCH_id_rs_normed_concat  ...  done
   Removing mean image ... done
-Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-101_IDCH_id_rs_normed_concat  ...  done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-107_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-120_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-132_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-112_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-140_IDCH_id_rs_normed_concat  ...  done
   Removing mean image ... done
 Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-113_IDCH_id_rs_normed_concat  ...  done
   Removing mean image ... done
   Reducing data matrix to a  2399 dimensional subspace 
-Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-106_IDCH_id_rs_normed_concat  ...  done
-  Removing mean image ... done
-Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-111_IDCH_id_rs_normed_concat  ...  done
-  Removing mean image ... done
-  Reducing data matrix to a  2399 dimensional subspace 
-Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-103_IDCH_id_rs_normed_concat  ...  done
-  Removing mean image ... done
 Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-105_IDCH_id_rs_normed_concat  ...  done
-  Removing mean image ... done
-  Reducing data matrix to a  2399 dimensional subspace 
-Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-109_IDCH_id_rs_normed_concat  ...  done
-  Removing mean image ... done
-Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-107_IDCH_id_rs_normed_concat  ...  done
-  Removing mean image ... done
-  Reducing data matrix to a  2399 dimensional subspace 
-Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-119_IDCH_id_rs_normed_concat  ...  done
-  Removing mean image ... done
-Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-117_IDCH_id_rs_normed_concat  ...  done
-  Removing mean image ... done
-  Reducing data matrix to a  2399 dimensional subspace 
-Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-112_IDCH_id_rs_normed_concat  ...  done
-  Removing mean image ... done
-Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-102_IDCH_id_rs_normed_concat  ...  done
-  Removing mean image ... done
-  Reducing data matrix to a  2399 dimensional subspace 
-Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-110_IDCH_id_rs_normed_concat  ...  done
-  Removing mean image ... done
-Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-108_IDCH_id_rs_normed_concat  ...  done
-  Removing mean image ... done
-  Reducing data matrix to a  2399 dimensional subspace 
-Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-121_IDCH_id_rs_normed_concat  ...  done
-  Removing mean image ... done
-Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-114_IDCH_id_rs_normed_concat  ...  done
-  Removing mean image ... done
-  Reducing data matrix to a  2399 dimensional subspace 
-Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-118_IDCH_id_rs_normed_concat  ...  done
   Removing mean image ... done
 Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-115_IDCH_id_rs_normed_concat  ...  done
   Removing mean image ... done
   Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-141_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-122_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-119_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-129_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-154_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-102_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-135_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-144_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-103_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-133_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-143_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-142_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-123_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-124_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-148_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-138_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-108_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-130_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-109_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-121_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-126_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-153_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-106_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-101_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-149_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-110_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-136_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-155_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-139_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-128_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-152_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-125_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-134_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-118_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-117_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-145_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-137_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
 Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-104_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-131_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /export/home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-114_IDCH_id_rs_normed_concat  ...  done
   Removing mean image ... done
   Reducing data matrix to a  2399 dimensional subspace 
 
 Excluding voxels with constant value ... done
   Normalising by voxel-wise variance ... done
 
-  Data size : 2399 x 225660
+  Data size : 2399 x 225079
 
 Starting PCA  ... done
 Start whitening using  50 dimensions ... 
-  retaining 42.2646 percent of the variability 
+  retaining 41.1532 percent of the variability 
  ... done
 
 Starting ICA estimation using concat
 
-  Step no. 1 change : 0.990231
-  Step no. 2 change : 0.107973
-  Step no. 3 change : 0.0382297
-  Step no. 4 change : 0.0347908
-  Step no. 5 change : 0.0254159
-  Step no. 6 change : 0.0280418
-  Step no. 7 change : 0.0216074
-  Step no. 8 change : 0.0161025
-  Step no. 9 change : 0.0136277
-  Step no. 10 change : 0.012933
-  Step no. 11 change : 0.0130026
-  Step no. 12 change : 0.0108402
-  Step no. 13 change : 0.00759506
-  Step no. 14 change : 0.00648544
-  Step no. 15 change : 0.00525352
-  Step no. 16 change : 0.0042594
-  Step no. 17 change : 0.00351634
-  Step no. 18 change : 0.00293869
-  Step no. 19 change : 0.00252999
-  Step no. 20 change : 0.00216117
-  Step no. 21 change : 0.0018361
-  Step no. 22 change : 0.00155591
-  Step no. 23 change : 0.0013193
-  Step no. 24 change : 0.00112316
-  Step no. 25 change : 0.000963107
-  Step no. 26 change : 0.000834028
-  Step no. 27 change : 0.000730798
-  Step no. 28 change : 0.000648782
-  Step no. 29 change : 0.00058406
-  Step no. 30 change : 0.000533435
-  Step no. 31 change : 0.000494318
-  Step no. 32 change : 0.000464566
-  Step no. 33 change : 0.000442314
-  Step no. 34 change : 0.000425822
-  Step no. 35 change : 0.00047297
-  Step no. 36 change : 0.000544317
-  Step no. 37 change : 0.000630774
-  Step no. 38 change : 0.000727355
-  Step no. 39 change : 0.000824935
-  Step no. 40 change : 0.000910594
-  Step no. 41 change : 0.000969792
-  Step no. 42 change : 0.000990224
-  Step no. 43 change : 0.000965951
-  Step no. 44 change : 0.000899643
-  Step no. 45 change : 0.000801582
-  Step no. 46 change : 0.000686031
-  Step no. 47 change : 0.000566984
-  Step no. 48 change : 0.000455186
-  Step no. 49 change : 0.000357089
-  Step no. 50 change : 0.000275285
-  Step no. 51 change : 0.000209638
-  Step no. 52 change : 0.000158449
-  Step no. 53 change : 0.000119373
-  Step no. 54 change : 0.000102679
-  Step no. 55 change : 9.43471e-05
-  Step no. 56 change : 8.68859e-05
-  Step no. 57 change : 8.02097e-05
-  Step no. 58 change : 7.42322e-05
-  Step no. 59 change : 6.88731e-05
-  Step no. 60 change : 6.40598e-05
-  Step no. 61 change : 6.12135e-05
-  Step no. 62 change : 6.01516e-05
-  Step no. 63 change : 5.90477e-05
-  Step no. 64 change : 5.78959e-05
-  Step no. 65 change : 5.66917e-05
-  Step no. 66 change : 5.54323e-05
-  Step no. 67 change : 5.41161e-05
-  Step no. 68 change : 5.27436e-05
-  Step no. 69 change : 5.13166e-05
-  Step no. 70 change : 4.98382e-05
-  Convergence after 70 steps 
+  Step no. 1 change : 0.941811
+  Step no. 2 change : 0.132125
+  Step no. 3 change : 0.0605654
+  Step no. 4 change : 0.0503578
+  Step no. 5 change : 0.0348265
+  Step no. 6 change : 0.0282652
+  Step no. 7 change : 0.0343858
+  Step no. 8 change : 0.0226298
+  Step no. 9 change : 0.0138537
+  Step no. 10 change : 0.0115446
+  Step no. 11 change : 0.0120378
+  Step no. 12 change : 0.0116244
+  Step no. 13 change : 0.0102209
+  Step no. 14 change : 0.0102177
+  Step no. 15 change : 0.00864031
+  Step no. 16 change : 0.00626717
+  Step no. 17 change : 0.00411327
+  Step no. 18 change : 0.00445334
+  Step no. 19 change : 0.00524624
+  Step no. 20 change : 0.00616456
+  Step no. 21 change : 0.00676779
+  Step no. 22 change : 0.00653052
+  Step no. 23 change : 0.00531643
+  Step no. 24 change : 0.00363932
+  Step no. 25 change : 0.00217613
+  Step no. 26 change : 0.00121078
+  Step no. 27 change : 0.000947646
+  Step no. 28 change : 0.000840984
+  Step no. 29 change : 0.000796755
+  Step no. 30 change : 0.000756831
+  Step no. 31 change : 0.000722374
+  Step no. 32 change : 0.000693906
+  Step no. 33 change : 0.000699549
+  Step no. 34 change : 0.000741274
+  Step no. 35 change : 0.000784153
+  Step no. 36 change : 0.000822835
+  Step no. 37 change : 0.000851416
+  Step no. 38 change : 0.00086407
+  Step no. 39 change : 0.000855994
+  Step no. 40 change : 0.000824507
+  Step no. 41 change : 0.000769935
+  Step no. 42 change : 0.000695876
+  Step no. 43 change : 0.000608593
+  Step no. 44 change : 0.000515673
+  Step no. 45 change : 0.00042442
+  Step no. 46 change : 0.000340555
+  Step no. 47 change : 0.0002676
+  Step no. 48 change : 0.00020693
+  Step no. 49 change : 0.000158271
+  Step no. 50 change : 0.000120342
+  Step no. 51 change : 9.14129e-05
+  Step no. 52 change : 8.84748e-05
+  Step no. 53 change : 9.12432e-05
+  Step no. 54 change : 9.48078e-05
+  Step no. 55 change : 9.92422e-05
+  Step no. 56 change : 0.000104642
+  Step no. 57 change : 0.000111131
+  Step no. 58 change : 0.000118858
+  Step no. 59 change : 0.000128009
+  Step no. 60 change : 0.000138801
+  Step no. 61 change : 0.000151491
+  Step no. 62 change : 0.000166373
+  Step no. 63 change : 0.000183779
+  Step no. 64 change : 0.000204069
+  Step no. 65 change : 0.000227623
+  Step no. 66 change : 0.000254813
+  Step no. 67 change : 0.000285969
+  Step no. 68 change : 0.000321318
+  Step no. 69 change : 0.000360904
+  Step no. 70 change : 0.000404484
+  Step no. 71 change : 0.000451401
+  Step no. 72 change : 0.000500452
+  Step no. 73 change : 0.000549784
+  Step no. 74 change : 0.000596864
+  Step no. 75 change : 0.000638577
+  Step no. 76 change : 0.000671499
+  Step no. 77 change : 0.000692357
+  Step no. 78 change : 0.000698602
+  Step no. 79 change : 0.000688967
+  Step no. 80 change : 0.000663807
+  Step no. 81 change : 0.00062511
+  Step no. 82 change : 0.000576122
+  Step no. 83 change : 0.00053036
+  Step no. 84 change : 0.000498898
+  Step no. 85 change : 0.000462306
+  Step no. 86 change : 0.000422311
+  Step no. 87 change : 0.000380537
+  Step no. 88 change : 0.000338465
+  Step no. 89 change : 0.000297393
+  Step no. 90 change : 0.000258394
+  Step no. 91 change : 0.000222285
+  Step no. 92 change : 0.000189606
+  Step no. 93 change : 0.000160635
+  Step no. 94 change : 0.000135415
+  Step no. 95 change : 0.000113806
+  Step no. 96 change : 9.55362e-05
+  Step no. 97 change : 8.02602e-05
+  Step no. 98 change : 6.75976e-05
+  Step no. 99 change : 5.7169e-05
+  Step no. 100 change : 4.86174e-05
+  Convergence after 100 steps 
 
 Sorting IC maps
 
