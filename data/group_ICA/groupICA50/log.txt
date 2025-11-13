@@ -745,3 +745,69 @@ Writing results to :
 
 finished!
 
+
+Melodic Version 3.15
+
+/usr/share/fsl/bin/melodic -i /home/ranigera/IDCH-rsfMRI/data/group_ICA/input_files.txt -o /home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50 --tr=0.70 --nobet -a concat --bgimage=/data/standard/MNI152_T1_2mm_brain.nii.gz -m /data/standard/MNI152_T1_2mm_brain_mask.nii.gz --report --Oall -d 50 
+---------------------------------------------
+
+Melodic results will be in /home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50
+
+
+Melodic Version 3.15
+
+/usr/share/fsl/bin/melodic -i /home/ranigera/IDCH-rsfMRI/data/group_ICA/input_files.txt -o /home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50 --tr=0.70 --nobet -a concat --bgimage=/usr/local/fsl/data/standard/MNI152_T1_2mm_brain.nii.gz -m /usr/local/fsl/data/standard/MNI152_T1_2mm_brain_mask.nii.gz --report --Oall -d 50 
+---------------------------------------------
+
+Melodic results will be in /home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50
+
+
+Melodic Version 3.15
+
+/usr/share/fsl/bin/melodic -i /home/ranigera/IDCH-rsfMRI/data/group_ICA/input_files.txt -o /home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50 --tr=0.70 --nobet -a concat --bgimage=/usr/share/fsl/data/standard/MNI152_T1_2mm_brain.nii.gz -m /usr/share/fsl/data/standard/MNI152_T1_2mm_brain_mask.nii.gz --report --Oall -d 50 
+---------------------------------------------
+
+Melodic results will be in /home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50
+
+
+Melodic Version 3.15
+
+/usr/share/fsl/bin/melodic -i /home/ranigera/IDCH-rsfMRI/data/group_ICA/input_files.txt -o /home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50 --tr=0.70 --nobet -a concat --bgimage=/usr/share/fsl/data/standard/MNI152_T1_2mm_brain.nii.gz -m /usr/share/fsl/data/standard/MNI152_T1_2mm_brain_mask.nii.gz --report --Oall -d 50 
+---------------------------------------------
+
+Melodic results will be in /home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50
+
+
+Melodic Version 3.15
+
+/usr/share/fsl/bin/melodic -i /home/ranigera/IDCH-rsfMRI/data/group_ICA/input_files.txt -o /home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50 --tr=0.70 --nobet -a concat --bgimage=/usr/local/fsl/data/standard/MNI152_T1_2mm_brain.nii.gz -m /usr/local/fsl/data/standard/MNI152_T1_2mm_brain_mask.nii.gz --report --Oall -d 50 
+---------------------------------------------
+
+Melodic results will be in /home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50
+
+
+Melodic Version 3.15
+
+/usr/share/fsl/bin/melodic -i /home/ranigera/IDCH-rsfMRI/data/group_ICA/input_files.txt -o /home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50 --tr=0.70 --nobet -a concat --bgimage=/usr/share/fsl/data/standard/MNI152_T1_2mm_brain.nii.gz -m /usr/share/fsl/data/standard/MNI152_T1_2mm_brain_mask.nii.gz --report --Oall -d 50 
+---------------------------------------------
+
+Melodic results will be in /home/ranigera/IDCH-rsfMRI/data/group_ICA/groupICA50
+
+Mask provided : /usr/share/fsl/data/standard/MNI152_T1_2mm_brain_mask.nii.gz
+
+Randomising input file order
+Reading data file /home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-139_IDCH_id_rs_normed_concat  ...  done
+  Estimating data smoothness ...  done 
+  Removing mean image ... done
+Reading data file /home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-130_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-124_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-115_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
+Reading data file /home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-101_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+Reading data file /home/ranigera/IDCH-rsfMRI/data/pre_proc_data_IDCH_subNums_normed_concat/sub-131_IDCH_id_rs_normed_concat  ...  done
+  Removing mean image ... done
+  Reducing data matrix to a  2399 dimensional subspace 
