@@ -1,3 +1,7 @@
 data/pre_proc_data/
 ARCHIVE_BEFORE_DECISION_TO_NORM_AND_CONCAT/
 *.nii.gz
+
+# Data directories
+data/
+ARCHIVE_*/
